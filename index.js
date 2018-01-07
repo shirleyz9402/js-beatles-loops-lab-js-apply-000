@@ -13,6 +13,7 @@ function johnLennonFacts(fact) {
   }
   function iLoveTheBeatles(i) {
     do {
+      i === 0
       return (`I love the Beatles!`)
       i++
     }
