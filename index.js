@@ -12,10 +12,14 @@ function johnLennonFacts(fact) {
    return shoutFacts 
   }
   function iLoveTheBeatles(i) {
+    var arr = []
     do {
-      for (i === 0; i < 15; i++)
-      return (`I love the Beatles!`)
+      arr.push(`I love the Beatles!`)
+      i++
     }
     while (i < 15)
+    return arr
+    if (i > 15) {
     return (`I love the Beatles!`)
+    }
   }
