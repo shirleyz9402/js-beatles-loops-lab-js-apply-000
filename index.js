@@ -13,9 +13,8 @@ function johnLennonFacts(fact) {
   }
   function iLoveTheBeatles(i) {
     do {
-      if (i < 15)
+      for (i === 0; i < 15; i++)
       return (`I love the Beatles!`)
-      i++
     }
     while (i < 15)
     return (`I love the Beatles!`)
