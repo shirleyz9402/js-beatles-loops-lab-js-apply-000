@@ -11,4 +11,11 @@ function johnLennonFacts(fact) {
   }
    return shoutFacts 
   }
-  function iLoveTheBeatles
+  function iLoveTheBeatles(i) {
+    do {
+      return (`I love the Beatles!`)
+      i++
+    }
+    while (i < 15)
+    return (`I love the Beatles!`)
+  }
